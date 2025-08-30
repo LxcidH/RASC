@@ -18,7 +18,7 @@ I was bored of using online versions of snake and wanted to create my own utilis
 ``` mv RASC ~/.local/bin/ ```
 
 ### Executing program
-* If you followed the "Installing" steps simply type "RASC" anywhere in your terminal to run.
+* If you followed the "Installing" steps simply type ```RASC``` anywhere in your terminal to run.
 * If you didn't and wish to run from the directory that RASC is installed in:
 ``` ./RASC ```
 
