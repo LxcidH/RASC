@@ -174,7 +174,7 @@ int snakeGame() {
             }
         }
 
-        if(snake_length == 5) {
+        if(snake_length == MAX_SNAKE_LENGTH) {
             if(wongame(game_win) == 0) {
                 endwin();
                 return 0;
