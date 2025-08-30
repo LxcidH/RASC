@@ -6,6 +6,7 @@ Terminal based snake clone.
 ## Description
 
 I was bored of using online versions of snake and wanted to create my own utilising the terminal, C and the ncurses library. The code is very unorganized for now but in the future i will refactor it :)
+![RASC](https://github.com/user-attachments/assets/bcce154d-5eef-4450-86e4-d8374de82beb)
 
 ## Getting Started
 
