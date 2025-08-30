@@ -1,3 +1,4 @@
+
 # RASC - Really Awful Snake Clone
 
 Terminal based snake clone.
@@ -8,9 +9,25 @@ I was bored of using online versions of snake and wanted to create my own utilis
 
 ## Getting Started
 
+### Dependencies
+ ***[ncurses](https://invisible-island.net/ncurses/announce.html) - use the following to install ncurses if your system doesn't already have it:***
+* **On Debian / Ubuntu / Mint:**
+```
+sudo apt update
+sudo apt install libncursesw6
+```
+* **On Fedora / CentOS / RHEL:**
+```
+sudo dnf install ncurses-libs
+```
+* **On Arch Linux:**
+```
+sudo pacman -S ncurses
+```
+
 ### Installing
 
-* Download latest release or compile from source with:
+* Download latest [release](https://github.com/LxcidH/RASC/releases) or compile from source with:
 ``` gcc -Wall -O2 -o RASC main.c -lncurses ```
 * Make a directory in your .local folder:
 ``` mkdir -p ~/.local/bin ```
@@ -18,7 +35,7 @@ I was bored of using online versions of snake and wanted to create my own utilis
 ``` mv RASC ~/.local/bin/ ```
 
 ### Executing program
-* If you followed the "Installing" steps simply type "RASC" anywhere in your terminal to run.
+* If you followed the "Installing" steps simply type ```RASC``` anywhere in your terminal to run.
 * If you didn't and wish to run from the directory that RASC is installed in:
 ``` ./RASC ```
 
