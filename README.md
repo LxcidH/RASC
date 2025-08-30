@@ -1,3 +1,4 @@
+
 # RASC - Really Awful Snake Clone
 
 Terminal based snake clone.
@@ -7,6 +8,22 @@ Terminal based snake clone.
 I was bored of using online versions of snake and wanted to create my own utilising the terminal, C and the ncurses library. The code is very unorganized for now but in the future i will refactor it :)
 
 ## Getting Started
+
+### Dependencies
+ ***ncurses - use the following to install ncurses if your system doesn't already have it:***
+* **On Debian / Ubuntu / Mint:**
+```
+sudo apt update
+sudo apt install libncursesw6
+```
+* **On Fedora / CentOS / RHEL:**
+```
+sudo dnf install ncurses-libs
+```
+* **On Arch Linux:**
+```
+sudo pacman -S ncurses
+```
 
 ### Installing
 
