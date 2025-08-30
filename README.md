@@ -28,16 +28,24 @@ sudo pacman -S ncurses
 ### Installing
 
 * Download latest release or compile from source with:
-``` gcc -Wall -O2 -o RASC main.c -lncurses ```
+```
+gcc -Wall -O2 -o RASC main.c -lncurses
+```
 * Make a directory in your .local folder:
-``` mkdir -p ~/.local/bin ```
+```
+mkdir -p ~/.local/bin
+```
 * Move RASC to the created folder:
-``` mv RASC ~/.local/bin/ ```
+``` 
+mv RASC ~/.local/bin/
+```
 
 ### Executing program
 * If you followed the "Installing" steps simply type ```RASC``` anywhere in your terminal to run.
 * If you didn't and wish to run from the directory that RASC is installed in:
-``` ./RASC ```
+```
+ ./RASC
+```
 
 ## License
 
