@@ -10,7 +10,7 @@ I was bored of using online versions of snake and wanted to create my own utilis
 ## Getting Started
 
 ### Dependencies
- ***ncurses - use the following to install ncurses if your system doesn't already have it:***
+ ***[ncurses](https://invisible-island.net/ncurses/announce.html) - use the following to install ncurses if your system doesn't already have it:***
 * **On Debian / Ubuntu / Mint:**
 ```
 sudo apt update
